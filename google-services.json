@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "54327421786",
+    "firebase_url": "https://internationalhelper-9d743.firebaseio.com",
+    "project_id": "internationalhelper-9d743",
+    "storage_bucket": "internationalhelper-9d743.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54327421786:android:fda1f5d66e0cf5b5432163",
+        "android_client_info": {
+          "package_name": "com.internationalhelper.internationalhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54327421786-1ace8ftd2vd4bbho06823ppabmf7omj0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.internationalhelper.internationalhelper",
+            "certificate_hash": "ba57acd31733794931da39ed8b790ce25cb9a9e5"
+          }
+        },
+        {
+          "client_id": "54327421786-s6qltsehpe906g4n62cmho5bmbhgo4hi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.internationalhelper.internationalhelper",
+            "certificate_hash": "d35c7bad43fc0c00c6dc84256d0b40ecfc3ff5b5"
+          }
+        },
+        {
+          "client_id": "54327421786-86q0tl53me1on9k9rm5osslb5v9bpglj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATRxxbNKWlMAGYMsT8qk17-dDWNZE50sI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54327421786-86q0tl53me1on9k9rm5osslb5v9bpglj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
