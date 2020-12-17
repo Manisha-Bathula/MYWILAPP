@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imageinternationalcenter" type="id" />
+    <item name="studentservices" type="id" />
+    <item name="canadaimage" type="id" />
+    <item name="covid19image" type="id" />
+</resources>

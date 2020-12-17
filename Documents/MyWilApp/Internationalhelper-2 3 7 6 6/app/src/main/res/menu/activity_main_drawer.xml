@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav"
+            android:title="Navigate"
+            />
+        <item
+            android:id="@+id/nav_SC"
+            android:icon="@drawable/sercan"
+            android:title="Service Canada" />
+        <item
+            android:id="@+id/nav_Bnk"
+            android:icon="@drawable/bank"
+            android:title="Bank" />
+
+        <item
+            android:id="@+id/nav_currency"
+            android:icon="@drawable/bank"
+            android:title="Currency Converter" />
+
+        <item
+            android:id="@+id/nav_Fd"
+            android:icon="@drawable/food"
+            android:title="Food" />
+
+        <item
+            android:id="@+id/clg"
+            android:title="College Place" />
+
+        <item
+            android:id="@+id/clg_Exp"
+            android:icon="@drawable/explore"
+            android:title="Explore" />
+
+        <item
+            android:id="@+id/clg_Pst"
+            android:icon="@drawable/post"
+            android:title="Post" />
+
+        <item
+            android:id="@+id/clg_Mng"
+            android:icon="@drawable/manage"
+            android:title="Manage" />
+
+
+    </group>
+</menu>

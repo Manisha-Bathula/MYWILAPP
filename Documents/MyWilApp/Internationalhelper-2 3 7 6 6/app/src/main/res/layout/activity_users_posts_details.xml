@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/images"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/titledetails"
+                android:text="Title: "
+                android:textColor="#333"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/catagorydetails"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Categories: "
+                    android:textSize="16sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pricedetails"
+                    android:layout_weight="1"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="price"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/descriptiondetails"
+                android:layout_gravity="center"
+                android:text="description"
+                android:maxLines="15"
+                android:padding="8dp"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/locationdetails"
+                android:layout_gravity="center"
+                android:text="location: "
+                android:drawableLeft="@drawable/ic_baseline_location_on"
+                android:drawablePadding="8dp"
+                android:drawableTint="@android:color/holo_blue_dark"
+                android:padding="8dp"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/calldetails"
+            android:text="call"
+            android:background="@drawable/buttonbg"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:textSize="18sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/smsdetails"
+            android:layout_marginBottom="10dp"
+            android:text="sms"
+            android:background="@drawable/buttonbg"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:textSize="18sp"/>
+</LinearLayout>
+</RelativeLayout>
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--        xmlns:tools="http://schemas.android.com/tools"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:context=".UserPostDetailActivity">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/title"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:autoSizeTextType="uniform"-->
+<!--            android:singleLine="false"-->
+<!--            android:text="TextView"-->
+<!--            android:visibility="gone"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="20dp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/des"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:visibility="gone"-->
+<!--            android:autoSizeTextType="uniform"-->
+<!--            android:singleLine="false"-->
+<!--            android:text="TextView"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="20dp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/title"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/title"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/title" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/price"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:autoSizeTextType="uniform"-->
+<!--            android:singleLine="false"-->
+<!--            android:text="TextView"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="20dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:visibility="gone"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/des"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/des"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/des" />-->
+
+<!--       -->
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
