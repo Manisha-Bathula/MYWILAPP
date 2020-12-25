@@ -49,6 +49,7 @@ public class homeMainActivity extends AppCompatActivity implements NavigationVie
 
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
+        // Hello World
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow)
                 .setDrawerLayout(drawer)
